@@ -1,0 +1,43 @@
+
+ class Student {
+
+        private String name;
+        private int rollno;
+
+        public void setName(String name) {
+            this.name = name;
+
+        }
+
+        public void setRollnum(int rollno) {
+
+            this.rollno = rollno;
+        }
+
+        public String getName() {
+            return name;
+
+        }
+
+        public int getRollno() {
+            return rollno;
+
+        }
+    }
+
+    public class StudentEncapsulation{
+
+    public static void main(String[] args) {
+
+        Student s1 = new Student();
+
+        s1.setName("Sarang");
+        s1.setRollnum(28);
+
+        System.out.println("Students Details:");
+        System.out.println("Name : " + s1.getName());
+        System.out.println("Roll Num: " + s1.getRollno());
+
+    }
+    }
+
